@@ -13,3 +13,5 @@ class CreateUniversities < ActiveRecord::Migration[5.1]
     add_index :universities, :api_id
   end
 end
+
+# Universite tablosu olusturuldu.
