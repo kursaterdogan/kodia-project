@@ -6,9 +6,13 @@
 
 # 2019 Kodiasoft Yaz Staj Projesi
 
->Veritabani DATABASE adli klasorun icinde bulunmaktadir.
+>Verıtabanı DATABASE adlı klasörün içinde bulunmaktadır.
 
->Api localhost:3001/api/v1 adresinden cagrilmalidir.
+>Türkiye'deki üniversiteler seeds.rb dosyasının içindedir.
+
+>Api localhost:3001/api/v1 adresinden çağrılmalıdır.
+
+
 
 
 
