@@ -7,7 +7,7 @@ module Api
             end
             def show
                 university = University.find(params[:id])
-                render json: {status: 'SUCCESS', message:'Basariyla universiteye ait detaylar ve ogrenciler getirildi', data:university},status: :ok
+                render json: {status: 'SUCCESS', message:'Basariyla universiteye ait detaylar getirildi', data:university},status: :ok
             end
         end
     end

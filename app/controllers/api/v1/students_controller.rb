@@ -8,14 +8,14 @@ module Api
 
             def show
                 student = Student.find(params[:id])
-                render json: {status: 'SUCCESS', message:'Basariyla ogrenciye ait detay ve universite bilgileri getirildi', data:student},status: :ok
+                render json: {status: 'SUCCESS', message:'Basariyla ogrenciye ait detaylar getirildi', data:student},status: :ok
             end
 
             def create
                 student = Student.new(student_params)
 
                 if student.save
-                     render json: {status: 'SUCCESS', message:'Basariyla ogrenciye eklendi', data:student},status: :ok
+                     render json: {status: 'SUCCESS', message:'Basariyla ogrenci eklendi', data:student},status: :ok
                 else
                     render json: {status: 'ERROR', message:'Ogrenci eklenirken hata olustu', data:student.errors},status: :unprocassable_entity
 
