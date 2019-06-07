@@ -6,9 +6,11 @@
 
 # 2019 Kodiasoft Yaz Staj Projesi
 
+>Veritabani DATABASE adli klasorun icinde bulunmaktadir.
+
 >Api localhost:3001/api/v1 adresinden cagrilmalidir.
 
->Veritabani DATABASE adli klasorun icinde bulunmaktadir.
+
 
 
 
