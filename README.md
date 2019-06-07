@@ -6,7 +6,7 @@
 
 # 2019 Kodiasoft Yaz Staj Projesi
 
->Verıtabanı DATABASE klasörün içinde bulunmaktadır.
+>Verıtabanı DATABASE klasörünün içinde bulunmaktadır.
 
 >Türkiye'deki üniversiteler seeds.rb dosyasındadır.
 
