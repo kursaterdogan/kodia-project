@@ -18,8 +18,6 @@ module Api
                      render json: {status: 'SUCCESS', message:'Basariyla ogrenci eklendi', data:student},status: :ok
                 else
                     render json: {status: 'ERROR', message:'Ogrenci eklenirken hata olustu', data:student.errors},status: :unprocassable_entity
-
-                    
                 end
             end
 
