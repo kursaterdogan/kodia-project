@@ -3,13 +3,9 @@
 [![HitCount](http://hits.dwyl.io/soullreaver/kodia-intern-project.svg)](http://hits.dwyl.io/soullreaver/kodia-intern-project)
 
 
+# 2019 Kodiasoft Yaz Staj Projesi
 
 
-
-
-# Kodiasoft staj projesi
-
->Rest api ile universitelere ogrenci eklenmesine olanak saglandi.
 
 
 
