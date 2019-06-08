@@ -10,7 +10,29 @@
 
 >Türkiye'deki üniversiteler seeds.rb dosyasındadır.
 
->Api localhost:3001/api/v1 adresinden çağrılmalıdır.
+>Api localhost:3001/api/v1 adresinden çağrılmalıdır
+
+## Endpointler 
+<ul>
+  <li>GET
+    <ul>
+      <li>/universities</li>
+      <li>/universities/{id}</li>
+      <li>/students</li>
+      <li>/students/{id}</li>
+      <li>universitystudents/{id}</li>
+    </ul>
+  </li>
+  <li>POST
+    <ul>
+      <li>/students</li>
+    </ul>
+  </li>
+</ul>
+
+
+
+
 
 
 
