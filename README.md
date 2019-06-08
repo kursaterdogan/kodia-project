@@ -6,6 +6,8 @@
 
 # 2019 Kodiasoft Yaz Staj Projesi
 
+>Üniversite oluşturma ve bu üniversitelere öğrenci eklenmesine olanak sağlayan rest api oluşturuldu.
+
 >Türkiye'deki üniversiteler seeds.rb dosyasındadır.
 
 >Api localhost:3001/api/v1 adresinden çağrılmalıdır
