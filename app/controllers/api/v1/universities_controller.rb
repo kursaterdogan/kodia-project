@@ -5,7 +5,8 @@ module Api
                 universities = University.select(:id, :name);
                 render json: {status: 'SUCCESS', message:'Basariyla tum universiteler getirildi', data:universities},status: :ok
             end
-            def show
+            
+            def show   
                 university = University.find(params[:id])
                 render json: {status: 'SUCCESS', message:'Basariyla universiteye ait detaylar getirildi', data:university},status: :ok
             end
