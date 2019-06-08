@@ -2,7 +2,7 @@ module Api
     module V1
         class UniversitiesController < ApplicationController 
             def index
-                universities = University.order('id ASC');
+                universities = University.select(:id, :name);
                 render json: {status: 'SUCCESS', message:'Basariyla tum universiteler getirildi', data:universities},status: :ok
             end
             def show

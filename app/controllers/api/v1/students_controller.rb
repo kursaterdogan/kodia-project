@@ -2,7 +2,7 @@ module Api
     module V1
         class StudentsController < ApplicationController 
             def index
-                students = Student.order('id ASC');
+                students = Student.select(:id, :name, :university_id);
                 render json: {status: 'SUCCESS', message:'Basariyla tum ogrenciler getirildi', data:students},status: :ok
             end
 
@@ -15,7 +15,7 @@ module Api
                 student = Student.new(student_params)
 
                 if student.save
-                     render json: {status: 'SUCCESS', message:'Basariyla ogrenci eklendi', data:student},status: :ok
+                     render json: {status: 'SUCCESS', message:"#{student.name} adli ogrenci #{student.university.name}'ne eklendi", data:student},status: :ok
                 else
                     render json: {status: 'ERROR', message:'Ogrenci eklenirken hata olustu', data:student.errors},status: :unprocassable_entity
                 end
