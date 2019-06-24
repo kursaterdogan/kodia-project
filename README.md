@@ -4,15 +4,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
-# 2019 Kodiasoft Yaz Staj Projesi
+# 2019 Intern Project
 
->Üniversite oluşturma ve bu üniversitelere öğrenci eklenmesine olanak sağlayan rest api oluşturuldu.
+>RESTful API for university automation system.
 
->Türkiye'deki üniversiteler seeds.rb dosyasındadır.
+>You can access api on localhost:3001/api/v1
 
->Api localhost:3001/api/v1 adresinden çağrılmalıdır.
-
-## Endpointler 
+## Endpoints
 <ul>
   <li>GET
     <ul>
