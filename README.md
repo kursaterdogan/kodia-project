@@ -8,7 +8,7 @@
 
 >RESTful API for university automation system.
 
->You can access api on localhost:3001/api/v1
+>You can access the API on localhost:3001/api/v1
 
 ## Endpoints
 <ul>
