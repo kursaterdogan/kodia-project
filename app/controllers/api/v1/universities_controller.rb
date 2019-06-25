@@ -3,12 +3,12 @@ module Api
         class UniversitiesController < ApplicationController 
             def index
                 universities = University.select(:id, :name);
-                render json: {status: 'SUCCESS', message:'Basariyla tum universiteler getirildi', data:universities},status: :ok
+                render json: {status: 'SUCCESS', message:'All universities succesfully listed', data:universities},status: :ok
             end
             
             def show   
                 university = University.find(params[:id])
-                render json: {status: 'SUCCESS', message:'Basariyla universiteye ait detaylar getirildi', data:university},status: :ok
+                render json: {status: 'SUCCESS', message:'University details successfully listed', data:university},status: :ok
             end
         end
     end

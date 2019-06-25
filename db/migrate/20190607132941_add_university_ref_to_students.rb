@@ -4,4 +4,4 @@ class AddUniversityRefToStudents < ActiveRecord::Migration[5.1]
   end
 end
 
-# Ogrencilere universite referansi eklendi.
+

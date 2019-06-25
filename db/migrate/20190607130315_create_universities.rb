@@ -14,4 +14,4 @@ class CreateUniversities < ActiveRecord::Migration[5.1]
   end
 end
 
-# Universite tablosu olusturuldu.
+

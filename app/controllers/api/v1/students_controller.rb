@@ -3,21 +3,21 @@ module Api
         class StudentsController < ApplicationController 
             def index
                 students = Student.select(:id, :name, :university_id);
-                render json: {status: 'SUCCESS', message:'Basariyla tum ogrenciler getirildi', data:students},status: :ok
+                render json: {status: 'SUCCESS', message:'All universities succesfully listed', data:students},status: :ok
             end
 
             def show
                 student = Student.find(params[:id])
-                render json: {status: 'SUCCESS', message:'Basariyla ogrenciye ait detaylar getirildi', data:student},status: :ok
+                render json: {status: 'SUCCESS', message:'Student details succesfully listed', data:student},status: :ok
             end
 
             def create
                 student = Student.new(student_params)
 
                 if student.save
-                     render json: {status: 'SUCCESS', message:"#{student.name} adli ogrenci #{student.university.name}'ne eklendi", data:student},status: :ok
+                     render json: {status: 'SUCCESS', message:"Name with #{student.name} added to #{student.university.name}", data:student},status: :ok
                 else
-                    render json: {status: 'ERROR', message:'Ogrenci eklenirken hata olustu', data:student.errors},status: :unprocassable_entity
+                    render json: {status: 'ERROR', message:'While adding student error occurred', data:student.errors},status: :unprocassable_entity
                 end
             end
 
